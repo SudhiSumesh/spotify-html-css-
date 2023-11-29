@@ -337,7 +337,7 @@ body {
   }
   .sidebar {
     display: flex;
-     padding-bottom: 4.4rem;
+     padding-bottom: 5.6rem;
     position: fixed;
     border-top: 1px solid gray;
     top: 740px;
