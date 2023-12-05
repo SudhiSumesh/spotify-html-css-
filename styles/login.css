@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.915),black);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+header .logo {
+   padding-block: 2.2rem;
+   padding-inline: 2rem;
+   background-color: black;
+  }
+  header .logo img {
+    width: 100px;
+  }
+  main{
+   
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+
+  }
+  .login-container{
+    background-color: black;
+    padding-inline: 9rem;
+    padding-block: 4rem;
+    border-radius: .6rem;
+  }
+  .login-container h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 46px;
+  }
+  .continue-with{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .google{
+    display: flex;
+    align-items: center;
+     gap: 50px;
+    border: 1px solid rgba(166, 162, 162, 0.679);
+    margin-left: .3rem;
+    border-radius: 2rem;
+    width: 250px;
+    padding-inline: 2rem;
+    padding-block: .7rem;
+    margin-bottom: .7rem;
+  }
+  .google:nth-child(3) img{
+    background-color: rgb(254, 254, 254);
+    border-radius: 1rem;
+   
+  }
+  .google:last-child{
+     justify-content: center;
+     font-weight: bold;
+  }
+  .google span{
+    font-weight: bold;
+    font-size:14px ;
+  }
+
+  .bg-green{
+    background-color: #1ed760;
+    color: black;
+  }
+ .input-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:1rem ;
+
+
+}
+ .input-container label{
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-left: -240px;
+}
+
+ .input-container input{
+   background-color: transparent;
+   border: 1px solid rgba(166, 162, 162, 0.679);
+   padding-block:.9rem ;
+   margin-block: .4rem;
+   padding-inline:.6rem ;
+   border-radius: .3rem;
+   width: 300px;
+   font-size: 1rem;
+   color: white;
+   letter-spacing: 1px;
+}
+ .input-container input::placeholder{
+  color: rgba(240, 248, 255, 0.504);
+}
+
+ .next-btn{
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  padding-inline: 9rem;
+  padding-block: .9rem;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 2rem;
+  border: none;
+}
+.sign-container {
+  padding-inline:2rem ;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ a{
+  color: white;
+}
+.dont{
+  margin-left: 2.6rem;
+   
+  color: rgb(171, 165, 165);
+}
+footer{
+  display: flex;
+ margin-top: 2rem;
+ flex-direction: column;
+
+ }
+  footer span{
+    color: rgb(171, 165, 165);
+    font-size:12px ;
+    text-align: center;
+  }
+  footer span a{
+    color:rgb(171, 165, 165) ;
+  }
