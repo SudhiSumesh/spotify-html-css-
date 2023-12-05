@@ -313,31 +313,15 @@ body {
     cursor: pointer;
   }
   
-  @media screen and (max-width:728px){
+
       
-      .sidebar{
-          display:none;
-      }
-      .main-container {
-    margin-left: 0;
-    margin-bottom: 100px;
-  }
-  .spotify-playlists .list {
-    
-          align-items:center;
-      justify-content:center;
-  
-  }
-      .topbar{
-           display: none;
-      }
-  
-  }
+
   /* mediaquery */
 @media screen and (max-width: 768px) {
     body{
         background-color: black;
     }
+
   .sidebar .navigation ul li span {
     display: none;
   }
@@ -353,7 +337,7 @@ body {
   }
   .sidebar {
     display: flex;
-     padding-bottom: 3.4rem;
+     padding-bottom: 5.6rem;
     position: fixed;
     border-top: 1px solid gray;
     top: 740px;
